@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Projeto WEB</title>
+    <!-- font-family: 'Roboto' -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!-- font-family: 'Open Sans' -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="#inicio"><img src="assets/logo.png" alt="logo"></a>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#sobre">O que está acontecendo com a Amazônia?</a>
+                    </li>
+                    <li>
+                        <a href="#florestas">Mas o que eu tenho a ver com as florestas?</a>
+                    </li>
+                    <li>
+                        <a href="#ajuda">Como posso ajudar?</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="inicio">
+        <div class="container">
+            <div class="left">
+                <h1 class="titulo-verde">Salve a Amazônia</h1>
+                <h2>Junte-se a nós para proteger a maior floresta tropical do mundo</h2>
+                <button onclick="window.open('https://brasil.un.org/pt-br/sdgs/15')">Acesse a Agenda 2030</button>
+            </div>
+            <img src="./assets/amazonia.jpeg" alt="Imagem da floresta Amazônia">
+        </div>
+    </section>
+    
+
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <div class="left">
+                <h1 class="titulo-verde">O que está acontecendo com a Amazônia?</h1>
+                <p>A maior floresta tropical do mundo, dona da maior biodiversidade do planeta, está em risco. Sem a Amazônia, não conseguiremos vencer a luta para combater as mudanças climáticas. Somente nos últimos meses, mais de 1 bilhão de árvores tombaram na Amazônia. A atividade agropecuária avança a cada dia sobre a floresta. Os rios estão sendo ameaçados pela construção de hidrelétricas. Garimpo, invasões e roubo de madeira continuam assolando terras indígenas e unidades de conservação. Áreas da floresta estão sendo vendidas via leilão para empresas explorarem petróleo e gás natural. <br> <br> No período de agosto de 2018 a julho de 2019, o desmatamento da Amazônia cresceu 30%, o equivalente a 1,4 milhões de campos de futebol, segundo dados do PRODES, medido pelo Instituto Nacional de Pesquisas Espaciais (INPE). As unidades de conservação e terras indígenas registraram um aumento de 55% e 62% respectivamente comparado com o período anterior. E esta é uma triste realidade que não podemos mais permitir. Salvar a Amazônia é salvar o planeta. Juntos, vamos conquistar o Desmatamento Zero, a solução viável, rápida e barata para combater as mudanças climáticas.</p>
+            </div>
+            <div class="right">
+                <img src="./assets/desmatamento-amazonia.jpg" alt="Desmatamento da Floresta Amazônia" width="271px" height="400px">
+            </div>   
+        </div>
+    </section>
+
+    <section id="florestas" class="florestas">
+        <div class="container">
+            <div class="left">
+                <h1 class="titulo-verde">Mas o que eu tenho a ver com as florestas?</h1>
+                <p>Tudo a ver! A Amazônia tem importância fundamental no controle do clima do planeta e na disponibilidade de água doce. Ou seja, sem floresta não tem água e produção de alimentos. Sua ajuda é essencial para manter as florestas de pé. <br> Sem a Floresta Amazônica não conseguiremos ganhar a batalha pelo clima. Somente com a conservação da floresta, garantiremos o equilíbrio climático global, evitando que a temperatura do planeta aumente. Estamos vivendo uma emergência climática! Enchentes, secas, verões super quentes, temperaturas extremas já estão impactando a vida de milhares de pessoas, principalmente as mais vulneráveis. <br> Ainda há tempo de parar essa destruição. Junte-se a nós nessa luta!</p>
+            </div>
+            <div class="img-container">
+                <img src="./assets/florestas.jpeg" alt="Sem florestas sem vida">
+            </div>
+        </div>
+    </section>
+
+    <section id="ajuda" class="ajuda">
+        <div class="container">
+            <div class="left">
+                <h1 class="titulo-verde">Como posso ajudar?</h1>
+                <p>Precisamos de sua ajuda para exigir do governo a adoção do Desmatamento Zero como política ambiental urgente e prioritária no Brasil. O governo brasileiro precisa assumir a responsabilidade de parar o desmatamento na Amazônia. Não há tempo a perder! <br> O fim do desmatamento no Brasil é possível e necessário para o futuro do país. Por isso, precisamos atuar em rede como estratégia para apoiar a luta de povos indígenas e comunidades tradicionais pela conservação das florestas e de seus territórios tradicionais.</p>
+            </div>
+            <div class="img-container">
+                <img src="./assets/sos-amazonia.jpeg" alt="SOS Amazônia">
+            </div>
+        </div>
+    </section>
+
+    <section id="ong" class="ong">
+        <div class="container">
+            <h1 class="titulo-verde">Saiba mais como conservar a Amazônia</h1>
+            <button onclick="window.open('https://sosamazonia.org.br/')">ONG SOS Amazônia</button>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="container">
+            <p>Desenvolvido por Jorge Wilson Silva Jardim - Projeto DW1A3 2022.IFSP</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
